@@ -39,7 +39,7 @@
 ![screenshot](https://ik.imagekit.io/d3kzbpbila/thejashari_3BXlaGJgK)
 
 
-- This project was done as a part of full stack development project, a simple authenticate page where user can login and regsiter a new account usign their email or directly by using gmail account. After creating a account user can upload photos in his account gallery to store that images in cloud and use it whenever he wants.
+- This project was done as a part of full stack development project by devchallenges.io, a simple authentication page where user can login and regsiter a new account using their email or directly by using their gmail account. After creating a account users can upload photos in their account gallery to store images in cloud and use it whenever they want.
 
 - Supports gmail acccount login in which user can select a google account stored in his device for authentication which does not require password.
 
@@ -105,6 +105,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://authenticate-page-frontend.vercel.app/)
+- Website [https://authenticate-page-frontend.vercel.app/](https://authenticate-page-frontend.vercel.app/)
 - GitHub [@your-username](https://github.com/thejas-dev)
 - Twitter [@your-twitter](https://twitter.com/hari_thejas)
