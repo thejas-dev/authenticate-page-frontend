@@ -230,7 +230,7 @@ export default function Information() {
 						}
 					}}
 					className={`md:h-full md:w-full h-[200px] cursor-pointer hover:scale-105 transition-all duration-100 ease-out
-					${oddOrEven(imagesArray.length) ? "md:h-[250px]" : ""} ${loader && 'animate-pulse'}
+					${oddOrEven(imagesArray.length) ? "md:h-[400px]" : ""} ${loader && 'animate-pulse'}
 					shadow-xl w-full flex flex-col items-center justify-center bg-gray-400 dark:bg-gray-900 rounded-md`}>
 						<BiPlusCircle className="h-[70px] w-[70px] text-gray-200 dark:text-gray-300"/>
 						<h1 className="text-2xl font-semibold text-gray-200 dark:text-gray-300 mt-2">Add New</h1>
