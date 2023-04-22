@@ -1,4 +1,4 @@
-export const host = "http://192.168.1.11:3333";
+export const host = "https://authenticate-page-server.onrender.com";
 
 export const registerRoutes = `${host}/api/auth/register`;
 export const loginRoutes = `${host}/api/auth/login`;
