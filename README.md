@@ -1,38 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Please update value in the {}  -->
 
-## Getting Started
+<h1 align="center">Authenticate-page</h1>
 
-First, run the development server:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<div align="center">
+  <h3>
+    <a href="https://authenticate-page-frontend.vercel.app/">
+      AuthenticatePage
+    </a>
+    <span> | </span>
+    <a href="https://github.com/thejas-dev/chat-siris-v2.git">
+      Git
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/N1fvBjQfhlkctmwj1tnw">
+      Challenge
+    </a>
+  </h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](https://ik.imagekit.io/d3kzbpbila/thejashari_3BXlaGJgK)
+
+
+- This project was done as a part of full stack development project, a simple authenticate page where user can login and regsiter a new account usign their email or directly by using gmail account. After creating a account user can upload photos in his account gallery to store that images in cloud and use it whenever he wants.
+
+- Supports gmail acccount login in which user can select a google account stored in his device for authentication which does not require password.
+
+- User can update his profile by providing his name, number, profile picture etc. Password also can be changed but remembering the old password is necessary as there is no forget password option.
+
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+
+## Features
+
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/N1fvBjQfhlkctmwj1tnw">) was to build an application to complete the given user stories.
+
+User Stories are :- 
+1)I can register a new account
+2)I can log in
+3)I can log in or register with at least one of the following services: Google, Facebook, Twitter or Github
+4)I can sign out
+5)I can see my profile details
+6)I can edit my details including: photo, name, bio, phone, email and password
+7)I can upload a new photo or provide an image URL
+
+The features are :-
+
+~~ Login with just a tap ~~
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1)Login/Register with email and password
+2)Login/Register with google account
+3)Edit information in account profile
+4)Unlimited Gallery Storage
+5)Upload photos to cloud gallery
+6)Delete photos from gallery 
+7)Change profile picture
+8)Lightweight site
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+## How To Use
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<!-- Example: -->
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Environment Variables needed to run the application, if you wish to get the environment variables mailMe at thejaskala308@gmail.com
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+From your command line:
 
-## Learn More
+```bash
+# Clone this repository
+$ git clone https://github.com/thejas-dev/authenticate-page-frontend.git
 
-To learn more about Next.js, take a look at the following resources:
+# Install dependencies
+$ npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Run the app
+$ npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website [your-website.com](https://authenticate-page-frontend.vercel.app/)
+- GitHub [@your-username](https://github.com/thejas-dev)
+- Twitter [@your-twitter](https://twitter.com/hari_thejas)
