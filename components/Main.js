@@ -69,7 +69,7 @@ export default function Main({id}) {
 
 	return (
 		<div className="w-full min-h-screen flex flex-col items-center justify-between md:justify-center">
-			<div className="p-[20px] md:border-[1.5px] md:w-[30%] w-[100%] mx-auto border-gray-700/30 dark:border-gray-700/90 dark:md:border-gray-900/90  
+			<div className="p-[20px] md:border-[1.5px] xl:w-[35%] lg:w-[45%] md:w-[55%] w-[100%] mx-auto border-gray-700/30 dark:border-gray-700/90 dark:md:border-gray-900/90  
 			transition-all duration-200 ease-in	rounded-3xl shadow-xl flex flex-col">
 				<div className="flex gap-2 items-center">
 					<img src="https://ik.imagekit.io/d3kzbpbila/Thejas_Hari_server_images_dark_theme_for_background_website_bac_066a3751-b352-4573-8040-3a72662727c1_2_gprggFjOS.png?updatedAt=1674835809364"
